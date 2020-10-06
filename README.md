@@ -22,7 +22,7 @@ To connect a Kubernetes cluster to ShuttleOps, we will need the CACert, API URL,
 kubectl config view --flatten --minify > cluster-config.txt
 ```
 
-Next, open the file can grab the following values:
+Next, open the file and copy the following values:
 
 - `certificate-authority-data` - This is your CACert
 - `server` - This is your API URL
