@@ -4,7 +4,7 @@ In this repo you will find Kubernetes resources for creating a ShuttleOps servic
 
 The `shuttleops-role-sa-binding.yaml` file can be used to create a ShuttleOps service account, Cluster Role and Role Binding which will allow ShuttleOps to deploy and manage your application.
 
-The current supported version of kubernetes are:
+The current supported versions of kubernetes are:
 
 - 1.16
 - 1.17
