@@ -29,7 +29,7 @@ Next, open the file and copy the following values:
 
 ### How to generate a token
 
-Before you generate a token, create a Shuttleops Service Account and a Cluster Role, then finally bind the Cluster Role to the Service Account.
+Before you generate a token, create a Shuttleops Service Account and a Cluster Role, then finally bind the Cluster Role to the Service Account. You can easily do that by applying the YAML file we've included in this repository.
 
 **Create the required Kubernetes resources**:
 
