@@ -46,7 +46,7 @@ TOKENNAME=`kubectl --namespace kube-system get serviceaccount/shuttleops --outpu
 **View the token (Mac and Linux)**:
 
 ```
-kubectl --namespace kube-system get secret $TOKENNAME --output jsonpath='{.data.token}'| base64 --decode`
+kubectl --namespace kube-system get secret $TOKENNAME --output jsonpath='{.data.token}'| base64 --decode
 ```
 
 **View the token (Windows)**:
