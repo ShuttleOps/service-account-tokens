@@ -34,7 +34,7 @@ Before you generate a token, create a Shuttleops Service Account and a Cluster R
 **Create the required Kubernetes resources**:
 
 ```
-kubectl apply --file https://raw.githubusercontent.com/ShuttleOps/service-account-tokens/0.1.0/shuttleops-role-sa-binding.yaml
+kubectl apply -f https://raw.githubusercontent.com/ShuttleOps/service-account-tokens/0.1.0/shuttleops-role-sa-binding.yaml
 ```
 
 **Fetch the token name**:
